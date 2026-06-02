@@ -9,7 +9,7 @@
 
 | Field | Detail |
 |---|---|
-| **Student** | Nicolás Rivera |
+| **Student** | Nicolas Rivera |
 | **Instructor** | Ariel López |
 | **Course** | Advanced Analysis with Power BI and Python |
 | **Date** | May 24, 2026 |
