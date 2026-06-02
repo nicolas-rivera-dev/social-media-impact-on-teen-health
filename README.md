@@ -168,4 +168,4 @@ This project was developed for academic purposes as part of the Managerial Analy
 
 ---
 
-*Developed by **Nicolás Rivera** · 2026*
+*Developed by **Nicolas Rivera** · 2026*
