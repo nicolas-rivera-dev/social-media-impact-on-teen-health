@@ -24,6 +24,15 @@ Adolescent mental health has become a growing concern, driven by increased socia
 
 ---
 
+## 🧠 Key Challenge: The 95% Precision Paradox
+During model evaluation, the classification pipeline achieved an exceptional **95% Precision rate**. In a vacuum, this is a stellar metric. However, within a mental health domain, a critical evaluation was required:
+
+1. **The Cost of a False Negative:** In mental health screening, a False Negative (failing to identify a teen at risk) is significantly more dangerous than a False Positive (initiating a supportive check-in for a healthy teen). 
+2. **Feature Correlation:** High precision was heavily driven by strong linear and non-linear relationships with columns like `stress_level` and `anxiety_level`.
+3. **The Solution:** Rather than relying solely on Precision, I optimized the model using the **F1-Score** and analyzed the **Confusion Matrix** to ensure that Recall (Sensitivity) was not sacrificed to achieve an artificially inflated precision rate.
+
+---
+
 ## 🎯 Objectives
 
 ### General Objective
